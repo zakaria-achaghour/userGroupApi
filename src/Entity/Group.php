@@ -15,6 +15,8 @@ use Symfony\Component\Serializer\Annotation\Groups;
 #[ORM\Entity(repositoryClass: GroupRepository::class)]
 #[ORM\Table(name: '`group`')]
 #[ApiResource(
+    paginationItemsPerPage: 2,
+    paginationEnabled: true,
     normalizationContext: ['groups' => ['group:read']],
     denormalizationContext: ['groups' => ['group:write']]
 )]
