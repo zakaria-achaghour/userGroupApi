@@ -82,8 +82,10 @@
         }
     },
     "require-dev": {
+        "behat/behat": "^3.14",
         "doctrine/doctrine-fixtures-bundle": "^3.6",
         "fakerphp/faker": "^1.23",
+        "friends-of-behat/symfony-extension": "^2.6",
         "symfony/maker-bundle": "^1.61"
     }
 }
