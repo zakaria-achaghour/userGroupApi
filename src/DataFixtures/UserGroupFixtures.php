@@ -26,7 +26,7 @@ class UserGroupFixtures extends Fixture
         }
 
         // Create 20 users and assign them to random groups
-        for ($i = 1; $i <= 20; $i++) {
+        for ($i = 1; $i <= 50; $i++) {
             $user = new User();
             $user->setFirstName($faker->firstName)
                  ->setLastName($faker->lastName)
