@@ -28,8 +28,6 @@ services:
     depends_on:
       - mysql
     command: php-fpm
-    environment:
-      - ACCEPT_EULA=Y
     build:
       context: .
       dockerfile: Dockerfile
